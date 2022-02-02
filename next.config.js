@@ -5,7 +5,7 @@
 module.exports = {
 
   images:{
-    domains: ['https://assetback.herokuapp.com/'],
+    domains: ['https://assetback.herokuapp.com/graphql'],
     reactStrictMode: false,
   },
   // pwa: {

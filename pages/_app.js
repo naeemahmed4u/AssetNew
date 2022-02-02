@@ -37,7 +37,7 @@ const authLink = setContext(() => {
 
 function MyApp({ Component, pageProps }) {
 
-  const uploadLink = createUploadLink({ uri: 'https://assetback.herokuapp.com/' });
+  const uploadLink = createUploadLink({ uri: 'https://assetback.herokuapp.com/graphql' });
 
   // const httpLink = createHttpLink({
   //   uri: 'http://localhost:5000/graphql'
